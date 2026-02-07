@@ -1,0 +1,51 @@
+name: appmusicvol2
+description: A modern music player app with blur UI effects
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Audio Player
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  
+  # File Picker & Storage
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  
+  # Database
+  sqflite: ^2.3.0
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  flutter_slidable: ^3.0.1
+  marquee: ^2.2.3
+  
+  # Image & Blur Effects
+  flutter_cache_manager: ^3.3.1
+  palette_generator: ^0.3.3+3
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Utils
+  uuid: ^4.2.1
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
